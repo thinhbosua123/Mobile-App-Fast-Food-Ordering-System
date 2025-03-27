@@ -1,0 +1,48 @@
+name: food_app_ui
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.27.2  # Cập nhật phiên bản mới nhất
+  cloud_firestore: ^4.17.3
+  firebase_auth: ^4.17.4
+  firebase_storage: ^11.6.5
+  provider: ^6.1.0
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  webview_flutter: ^4.9.0
+  webview_flutter_android: ^3.11.1 # Để tránh lỗi build WebView trên Android
+  webview_flutter_wkwebview: ^3.10.0 # Hỗ trợ WebView trên iOS
+
+  shared_preferences: ^2.2.2
+
+  http: ^1.2.1  # Cập nhật phiên bản mới nhất
+  fl_chart: ^0.69.2
+  image_picker: ^1.1.2
+  flutter_rating_bar: ^4.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: Lobster
+      fonts:
+        - asset: assets/fonts/Lobster-Regular.ttf
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf

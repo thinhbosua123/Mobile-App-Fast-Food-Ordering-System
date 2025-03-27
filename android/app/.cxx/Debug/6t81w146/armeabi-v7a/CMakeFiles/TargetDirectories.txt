@@ -1,0 +1,2 @@
+C:/Users/ADMIN/Documents/Zalo Received Files/food_app_ui-main/android/app/.cxx/Debug/6t81w146/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/ADMIN/Documents/Zalo Received Files/food_app_ui-main/android/app/.cxx/Debug/6t81w146/armeabi-v7a/CMakeFiles/rebuild_cache.dir
